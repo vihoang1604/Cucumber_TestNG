@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="52.198" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="E:\Project\2\cucumber-testng-updated\target\test-classes;E:\Project\2\cucumber-testng-updated\target\classes;C:\Windows\system32\config\systemprofile\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.11.0\selenium-java-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.11.0\selenium-api-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.11.0\selenium-chrome-driver-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.11.0\selenium-edge-driver-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.11.0\selenium-firefox-driver-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.11.0\selenium-ie-driver-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.11.0\selenium-opera-driver-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.11.0\selenium-remote-driver-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.11.0\selenium-safari-driver-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.11.0\selenium-support-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\info\cukes\cucumber-testng\1.2.5\cucumber-testng-1.2.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\net\masterthought\cucumber-reporting\3.8.0\cucumber-reporting-3.8.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-api\2.6\log4j-api-2.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-core\2.6\log4j-core-2.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.5\jackson-databind-2.8.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.5\jackson-core-2.8.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\velocity-tools\velocity-tools\1.4\velocity-tools-1.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\joda-time\joda-time\2.9.6\joda-time-2.9.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\net\lingala\zip4j\zip4j\1.3.2\zip4j-1.3.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.24\plexus-utils-3.0.24.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.10.1\jsoup-1.10.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20160924.1\owasp-java-html-sanitizer-20160924.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
+    <property name="sun.java.command" value="C:\Windows\TEMP\surefire6649781395643035677\surefirebooter9151441604426624490.jar C:\Windows\Temp\surefire6649781395643035677 2020-01-06T09-07-53_073-jvmRun1 surefire314832359341291901tmp surefire_05580519647259249264tmp"/>
+    <property name="surefire.test.class.path" value="E:\Project\2\cucumber-testng-updated\target\test-classes;E:\Project\2\cucumber-testng-updated\target\classes;C:\Windows\system32\config\systemprofile\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.11.0\selenium-java-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.11.0\selenium-api-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.11.0\selenium-chrome-driver-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.11.0\selenium-edge-driver-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.11.0\selenium-firefox-driver-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.11.0\selenium-ie-driver-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.11.0\selenium-opera-driver-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.11.0\selenium-remote-driver-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.11.0\selenium-safari-driver-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.11.0\selenium-support-3.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\info\cukes\cucumber-testng\1.2.5\cucumber-testng-1.2.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\net\masterthought\cucumber-reporting\3.8.0\cucumber-reporting-3.8.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-api\2.6\log4j-api-2.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-core\2.6\log4j-core-2.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.5\jackson-databind-2.8.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.5\jackson-core-2.8.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\velocity-tools\velocity-tools\1.4\velocity-tools-1.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\joda-time\joda-time\2.9.6\joda-time-2.9.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\net\lingala\zip4j\zip4j\1.3.2\zip4j-1.3.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.24\plexus-utils-3.0.24.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.10.1\jsoup-1.10.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20160924.1\owasp-java-html-sanitizer-20160924.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Windows\system32\config\systemprofile"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_231\jre"/>
+    <property name="basedir" value="E:\Project\2\cucumber-testng-updated"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Windows\TEMP\surefire6649781395643035677\surefirebooter9151441604426624490.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_231\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
+    <property name="user.name" value="PNVD039$"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Windows\system32\config\systemprofile\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Windows\TEMP\"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="user.dir" value="E:\Project\2\cucumber-testng-updated"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\maven\apache-maven-3.6.3/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.231-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="feature" classname="runner.TestRunner" time="42.139">
+    <failure message="org.openqa.selenium.NoSuchElementException: Unable to locate element: #userSelect&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;PNVD039&apos;, ip: &apos;10.211.1.44&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 6472, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: df27ab22-1ea7-4c97-908f-4ea97ff06dca&#10;*** Element info: {Using=id, value=userSelect}" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: 
+org.openqa.selenium.NoSuchElementException: Unable to locate element: #userSelect
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'PNVD039', ip: '10.211.1.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 6472, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: df27ab22-1ea7-4c97-908f-4ea97ff06dca
+*** Element info: {Using=id, value=userSelect}
+	at runner.TestRunner.feature(TestRunner.java:60)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: #userSelect
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'PNVD039', ip: '10.211.1.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 6472, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: df27ab22-1ea7-4c97-908f-4ea97ff06dca
+*** Element info: {Using=id, value=userSelect}
+</failure>
+    <system-out><![CDATA[# Created by nththuy at 1/3/20
+Feature: Add Customer
+  In order to store user information, I want to have the adding customer feature so that I can add customer easily
+
+  Scenario Outline: Add Customer sucessfully                                                &amp#27;[90m# src/main/java/features/addCustomer.feature:8&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI type first name as <firstname>, last name as <lastname>, post code as <postcode>&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI click submit&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI verify that system is already added customer as <fullname> successfully&amp#27;[0m
+
+    Examples: 
+
+  Background:                                                                                       &amp#27;[90m# src/main/java/features/addCustomer.feature:5&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mOpen website &amp#27;[0m&amp#27;[32m&amp#27;[1mhttp://www.way2automation.com/angularjs-protractor/banking/#/manager/addCust&amp#27;[0m &amp#27;[90m# CommonTest.user_already_on_home_page(String)&amp#27;[0m
+
+  Scenario Outline: Add Customer sucessfully                                        &amp#27;[90m# src/main/java/features/addCustomer.feature:14&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI type first name as &amp#27;[0m&amp#27;[32m&amp#27;[1mthuy&amp#27;[0m&amp#27;[32m, last name as &amp#27;[0m&amp#27;[32m&amp#27;[1mnguyen&amp#27;[0m&amp#27;[32m, post code as &amp#27;[0m&amp#27;[32m&amp#27;[1m55000&amp#27;[0m         &amp#27;[90m# AddCustomerTest.inputUserInformation(String,String,String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click submit&amp#27;[0m                                                              &amp#27;[90m# AddCustomerTest.clickSubmit()&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI verify that system is already added customer as &amp#27;[0m&amp#27;[31m&amp#27;[1mthuy nguyen&amp#27;[0m&amp#27;[31m successfully&amp#27;[0m &amp#27;[90m# AddCustomerTest.verifyCustomerAddSuccessfully(String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: Unable to locate element: #userSelect
+      For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+      System info: host: 'PNVD039', ip: '10.211.1.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+      Driver info: org.openqa.selenium.firefox.FirefoxDriver
+      Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 6472, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+      Session ID: df27ab22-1ea7-4c97-908f-4ea97ff06dca
+      *** Element info: {Using=id, value=userSelect}
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:365)
+      	at org.openqa.selenium.By$ById.findElement(By.java:218)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+      	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+      	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+      	at com.sun.proxy.$Proxy19.findElements(Unknown Source)
+      	at pages.OpenAccountPage.checkUserInformation(OpenAccountPage.java:37)
+      	at tests.AddCustomerTest.verifyCustomerAddSuccessfully(AddCustomerTest.java:32)
+      	at ?.Then I verify that system is already added customer as thuy nguyen successfully(src/main/java/features/addCustomer.feature:11)
+      &amp#27;[0m
+
+  Background:                                                                                       &amp#27;[90m# src/main/java/features/addCustomer.feature:5&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mOpen website &amp#27;[0m&amp#27;[32m&amp#27;[1mhttp://www.way2automation.com/angularjs-protractor/banking/#/manager/addCust&amp#27;[0m &amp#27;[90m# CommonTest.user_already_on_home_page(String)&amp#27;[0m
+
+  Scenario Outline: Add Customer sucessfully                                     &amp#27;[90m# src/main/java/features/addCustomer.feature:15&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI type first name as &amp#27;[0m&amp#27;[32m&amp#27;[1mhoa&amp#27;[0m&amp#27;[32m, last name as &amp#27;[0m&amp#27;[32m&amp#27;[1mhong&amp#27;[0m&amp#27;[32m, post code as &amp#27;[0m&amp#27;[32m&amp#27;[1m55000&amp#27;[0m         &amp#27;[90m# AddCustomerTest.inputUserInformation(String,String,String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click submit&amp#27;[0m                                                           &amp#27;[90m# AddCustomerTest.clickSubmit()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI verify that system is already added customer as &amp#27;[0m&amp#27;[32m&amp#27;[1mhoa hong&amp#27;[0m&amp#27;[32m successfully&amp#27;[0m &amp#27;[90m# AddCustomerTest.verifyCustomerAddSuccessfully(String)&amp#27;[0m
+
+  Scenario Outline: Add Customer unsucessfully                                              &amp#27;[90m# src/main/java/features/addCustomer.feature:17&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI type first name as <firstname>, last name as <lastname>, post code as <postcode>&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI click submit&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI verify that system is already added customer as <fullname> unsuccessfully&amp#27;[0m
+
+    Examples: 
+
+  Background:                                                                                       &amp#27;[90m# src/main/java/features/addCustomer.feature:5&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mOpen website &amp#27;[0m&amp#27;[32m&amp#27;[1mhttp://www.way2automation.com/angularjs-protractor/banking/#/manager/addCust&amp#27;[0m &amp#27;[90m# CommonTest.user_already_on_home_page(String)&amp#27;[0m
+
+  Scenario Outline: Add Customer unsucessfully                                 &amp#27;[90m# src/main/java/features/addCustomer.feature:23&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI type first name as &amp#27;[0m&amp#27;[32m&amp#27;[1mthuy&amp#27;[0m&amp#27;[32m, last name as &amp#27;[0m&amp#27;[32m&amp#27;[1mnull&amp#27;[0m&amp#27;[32m, post code as &amp#27;[0m&amp#27;[32m&amp#27;[1m55000&amp#27;[0m      &amp#27;[90m# AddCustomerTest.inputUserInformation(String,String,String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click submit&amp#27;[0m                                                         &amp#27;[90m# AddCustomerTest.clickSubmit()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI verify that system is already added customer as &amp#27;[0m&amp#27;[32m&amp#27;[1mthuy&amp#27;[0m&amp#27;[32m unsuccessfully&amp#27;[0m &amp#27;[90m# AddCustomerTest.verifyCustomerAddUnSuccessfully(String)&amp#27;[0m
+
+  Background:                                                                                       &amp#27;[90m# src/main/java/features/addCustomer.feature:5&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mOpen website &amp#27;[0m&amp#27;[32m&amp#27;[1mhttp://www.way2automation.com/angularjs-protractor/banking/#/manager/addCust&amp#27;[0m &amp#27;[90m# CommonTest.user_already_on_home_page(String)&amp#27;[0m
+
+  Scenario Outline: Add Customer unsucessfully                                   &amp#27;[90m# src/main/java/features/addCustomer.feature:24&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI type first name as &amp#27;[0m&amp#27;[32m&amp#27;[1mnull&amp#27;[0m&amp#27;[32m, last name as &amp#27;[0m&amp#27;[32m&amp#27;[1mnguyen&amp#27;[0m&amp#27;[32m, post code as &amp#27;[0m&amp#27;[32m&amp#27;[1m55000&amp#27;[0m      &amp#27;[90m# AddCustomerTest.inputUserInformation(String,String,String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click submit&amp#27;[0m                                                           &amp#27;[90m# AddCustomerTest.clickSubmit()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI verify that system is already added customer as &amp#27;[0m&amp#27;[32m&amp#27;[1mnguyen&amp#27;[0m&amp#27;[32m unsuccessfully&amp#27;[0m &amp#27;[90m# AddCustomerTest.verifyCustomerAddUnSuccessfully(String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[1578276478072	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Windows\\TEMP\\rust_mozprofile2MwOwE"
+1578276479141	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1578276479141	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1578276479142	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1578276479142	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1578276482531	Marionette	INFO	Listening on port 63921
+1578276482912	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jan 06, 2020 9:08:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1578276493423	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+openRemotePrompt@resource://gre/modules/Prompter.jsm:619:17
+openPrompt@resource://gre/modules/Prompter.jsm:663:25
+alert@resource://gre/modules/Prompter.jsm:737:10
+addCustomerCtrl/$scope.addCustomer@http://www.way2automation.com/angularjs-protractor/banking/addCustomerController.js:19:30
+fn@https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js line 212 > Function:4:224
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js:253:486
+$eval@https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js:133:221
+$apply@https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js:133:451
+compile/</<@https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js:254:36
+c@https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js:35:217
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:183:11
+1578276503181	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+openRemotePrompt@resource://gre/modules/Prompter.jsm:619:17
+openPrompt@resource://gre/modules/Prompter.jsm:663:25
+alert@resource://gre/modules/Prompter.jsm:737:10
+addCustomerCtrl/$scope.addCustomer@http://www.way2automation.com/angularjs-protractor/banking/addCustomerController.js:19:30
+fn@https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js line 212 > Function:4:224
+f@https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js:253:486
+$eval@https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js:133:221
+$apply@https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js:133:451
+compile/</<@https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js:254:36
+c@https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js:35:217
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:183:11
+]]></system-err>
+  </testcase>
+</testsuite>

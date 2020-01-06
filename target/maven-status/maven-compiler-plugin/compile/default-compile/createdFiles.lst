@@ -1,0 +1,8 @@
+tests\AddCustomerTest.class
+pages\OpenAccountPage.class
+tests\PageProvider.class
+pages\CommonPage.class
+pages\AddCustomerPage.class
+tests\CommonTest.class
+tests\OpenAccountTest.class
+runner\TestRunner.class
